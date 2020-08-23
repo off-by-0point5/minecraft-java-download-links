@@ -34,6 +34,7 @@ def get_html(url: str):
 
 web_root = 'https://mcversions.net/'
 versions_json = {}
+versions_list = []
 versions_path = Path('versions.json')
 if versions_path.is_file():
     with versions_path.open('r') as file:
@@ -53,18 +54,35 @@ for n in named_types:
         c2 += 1
         dl_link_site = e.find('a', {'class': 'button'}).get('href')
         item = e.get('id')
+        release_time = e.find('time').text
         print(str(c1)+'/'+str(len(named_types))+' | '+str(c2)+'/'+str(len(n))+' | ', end='')
+        list_item = {
+            'date': release_time,
+            'type': name,
+            'version': item,
+        }
         if not versions_json[name].get(item):
             versions_json[name][item] = {}
             dl_soup = BeautifulSoup(get_html(dl_link_site), "html.parser")
             downloads = dl_soup.find_all('div', {'class': 'download'})
             for d in downloads:
                 if d.find('h5'):
-                    versions_json[name][item][d.find('h5').text.lower().replace(' ', '_')] = \
-                        d.find('a', {'class': 'button'}).get('href')
+                    side = d.find('h5').text.split(' ')[0].lower()
+                    dl_link = d.find('a', {'class': 'button'}).get('href')
+                    versions_json[name][item][side] = dl_link
+                    list_item[side] = dl_link
         else:
             print('indexed')
+            for side in versions_json[name][item]:
+                if side in ['server', 'client']:
+                    list_item[side] = versions_json[name][item][side]
+        versions_json[name][item]['date'] = release_time
+        versions_list.append(list_item)
+
 with open('versions.json', 'w') as file:
-    file.write(json.dumps(versions_json))
-os.system('rm -r ./sites/download/*')
+    # print(json.dumps(versions_json, indent=2))
+    file.write(json.dumps(versions_json, indent=2))
+with open('versions-list.json', 'w') as file:
+    versions_list = sorted(versions_list, key=lambda k: k['date'], reverse=True)
+    file.write(json.dumps(versions_list, indent=2))
 os.system('rm -r ./sites/*')
