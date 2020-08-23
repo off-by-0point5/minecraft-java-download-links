@@ -3,6 +3,7 @@ import time
 from bs4 import BeautifulSoup
 import json
 from pathlib import Path
+import os
 
 online = True
 timeout = 10
@@ -65,3 +66,5 @@ for n in named_types:
             print('indexed')
 with open('versions.json', 'w') as file:
     file.write(json.dumps(versions_json))
+os.system('rm -r ./sites/download/*')
+os.system('rm -r ./sites/*')
