@@ -1,5 +1,18 @@
 [
   {
+    "date": "2020-09-10",
+    "type": "stable",
+    "version": "1.16.3",
+    "server": "https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar",
+    "client": "https://launcher.mojang.com/v1/objects/1321521b2caf934f7fc9665aab7e059a7b2bfcdf/client.jar"
+  },
+  {
+    "date": "2020-09-07",
+    "type": "snapshot",
+    "version": "1.16.3-rc1",
+    "server": "https://launcher.mojang.com/v1/objects/562bf3e75afea00875cff4a06165f93056646f32/server.jar"
+  },
+  {
     "date": "2020-08-11",
     "type": "stable",
     "version": "1.16.2",

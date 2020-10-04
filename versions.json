@@ -327,6 +327,11 @@
       "server": "https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar",
       "client": "https://launcher.mojang.com/v1/objects/653e97a2d1d76f87653f02242d243cdee48a5144/client.jar",
       "date": "2020-08-11"
+    },
+    "1.16.3": {
+      "server": "https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/1321521b2caf934f7fc9665aab7e059a7b2bfcdf/client.jar",
+      "date": "2020-09-10"
     }
   },
   "snapshot": {
@@ -2404,6 +2409,10 @@
       "server": "https://launcher.mojang.com/v1/objects/d2cae287324631b2b4bfa609dd01c63cd6d4b78d/server.jar",
       "client": "https://launcher.mojang.com/v1/objects/ce5762620a698b464d07a6c733cd66c7fa8072a1/client.jar",
       "date": "2020-08-05"
+    },
+    "1.16.3-rc1": {
+      "server": "https://launcher.mojang.com/v1/objects/562bf3e75afea00875cff4a06165f93056646f32/server.jar",
+      "date": "2020-09-07"
     }
   },
   "beta": {
