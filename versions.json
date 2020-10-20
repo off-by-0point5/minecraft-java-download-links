@@ -2413,6 +2413,11 @@
     "1.16.3-rc1": {
       "server": "https://launcher.mojang.com/v1/objects/562bf3e75afea00875cff4a06165f93056646f32/server.jar",
       "date": "2020-09-07"
+    },
+    "1.16.4-pre1": {
+      "server": "https://launcher.mojang.com/v1/objects/28eb6f8c4c05eec278e3e7f9f0379a16adbfb91d/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/44745d09a0c6b8faca3989274996d5193cdc1560/client.jar",
+      "date": "2020-10-13"
     }
   },
   "beta": {
