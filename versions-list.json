@@ -1,5 +1,12 @@
 [
   {
+    "date": "2020-11-25",
+    "type": "snapshot",
+    "version": "20w48a",
+    "server": "https://launcher.mojang.com/v1/objects/a14d24f89d5a4ec7521b91909caf4fee89c997f4/server.jar",
+    "client": "https://launcher.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar"
+  },
+  {
     "date": "2020-11-11",
     "type": "snapshot",
     "version": "20w46a",
@@ -3305,16 +3312,16 @@
   {
     "date": "2012-12-19",
     "type": "stable",
-    "version": "1.4.6",
-    "server": "https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar",
-    "client": "https://launcher.mojang.com/v1/objects/116758f41b32e8d1a71a4ad6236579acd724bca7/client.jar"
+    "version": "1.4.5",
+    "server": "https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar",
+    "client": "https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar"
   },
   {
     "date": "2012-12-19",
     "type": "stable",
-    "version": "1.4.5",
-    "server": "https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar",
-    "client": "https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar"
+    "version": "1.4.6",
+    "server": "https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar",
+    "client": "https://launcher.mojang.com/v1/objects/116758f41b32e8d1a71a4ad6236579acd724bca7/client.jar"
   },
   {
     "date": "2012-12-13",

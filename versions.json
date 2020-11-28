@@ -2443,6 +2443,11 @@
       "server": "https://launcher.mojang.com/v1/objects/373675677cc57b9294a187a4d0ecab6f340d4189/server.jar",
       "client": "https://launcher.mojang.com/v1/objects/f4c56c2b7218599b78074a500ab2a89a04db5b36/client.jar",
       "date": "2020-11-11"
+    },
+    "20w48a": {
+      "server": "https://launcher.mojang.com/v1/objects/a14d24f89d5a4ec7521b91909caf4fee89c997f4/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar",
+      "date": "2020-11-25"
     }
   },
   "beta": {
