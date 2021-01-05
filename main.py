@@ -4,13 +4,17 @@ from bs4 import BeautifulSoup
 import json
 from pathlib import Path
 import os
+from datetime import datetime, timedelta
 
 online = True
 timeout = 10
 sites_root = './sites/'
 
+last_download = 0
+
 
 def get_html(url: str):
+    global last_download
     print(url + ' -> ', end='')
     url = url[1:]
     p = Path(sites_root).joinpath(url)
@@ -26,7 +30,10 @@ def get_html(url: str):
             with p.joinpath('html').open('w') as f:
                 f.write(html)
                 print('downloaded')
-            time.sleep(timeout)
+            sleep_time = (last_download + timeout) - datetime.utcnow().timestamp()
+            if sleep_time > 0:
+                time.sleep(sleep_time)
+            last_download = datetime.utcnow().timestamp()
         else:
             html = ''
     return html
