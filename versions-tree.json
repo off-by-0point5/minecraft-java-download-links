@@ -2966,6 +2966,104 @@
       "version": "1.3",
       "server": "https://launcher.mojang.com/v1/objects/cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7/server.jar",
       "client": "https://launcher.mojang.com/v1/objects/4dfb8098b39c122f2aad13768d3f0d04db910f12/client.jar"
+    },
+    "21w16a": {
+      "date": "2021-04-21",
+      "type": "snapshot",
+      "version": "21w16a",
+      "server": "https://launcher.mojang.com/v1/objects/b8bacc67a9db84db59e2f97e9a9fba3a242480a8/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/f124f2aad604e88f27f010834d82c7af85506b6c/client.jar"
+    },
+    "21w15a": {
+      "date": "2021-04-14",
+      "type": "snapshot",
+      "version": "21w15a",
+      "server": "https://launcher.mojang.com/v1/objects/0a39422009a7aa01dd185043746c50dc909dc345/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar"
+    },
+    "21w14a": {
+      "date": "2021-04-07",
+      "type": "snapshot",
+      "version": "21w14a",
+      "server": "https://launcher.mojang.com/v1/objects/0cb279c49ea3afda25c9d7257bef650e8dc17429/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/4af7eb4770d3e708d287db3bf023d4bbc60465b0/client.jar"
+    },
+    "21w13a": {
+      "date": "2021-03-31",
+      "type": "snapshot",
+      "version": "21w13a",
+      "server": "https://launcher.mojang.com/v1/objects/36d49b1a6d05f1deac293d477bfa2b4a1babb71c/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/507be109a1902b7c3b30c1e900299344c7c0bee6/client.jar"
+    },
+    "21w11a": {
+      "date": "2021-03-17",
+      "type": "snapshot",
+      "version": "21w11a",
+      "server": "https://launcher.mojang.com/v1/objects/c828957ad249138129ccbc8749bfd14f01d96a4b/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/07ad8b23e33d195fd897133c9c0e35d7fa1593eb/client.jar"
+    },
+    "21w10a": {
+      "date": "2021-03-10",
+      "type": "snapshot",
+      "version": "21w10a",
+      "server": "https://launcher.mojang.com/v1/objects/5998d2c7c15fea04b2541efdcbec4c8cfe5df2a6/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/7840a9b8d9aeb480b16962c40a2ca3758893f00e/client.jar"
+    },
+    "21w08b": {
+      "date": "2021-02-25",
+      "type": "snapshot",
+      "version": "21w08b",
+      "server": "https://launcher.mojang.com/v1/objects/801d5e25869bab291077c773913cc2b490427314/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/c8ae0a1a8b18841e009b8dcdf21ec014f5787410/client.jar"
+    },
+    "21w08a": {
+      "date": "2021-02-24",
+      "type": "snapshot",
+      "version": "21w08a",
+      "server": "https://launcher.mojang.com/v1/objects/d5e31633d884e190e046b8645f802541bec2a5e9/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/3a008c012bd6bba29054701c7797493523660c57/client.jar"
+    },
+    "21w07a": {
+      "date": "2021-02-17",
+      "type": "snapshot",
+      "version": "21w07a",
+      "server": "https://launcher.mojang.com/v1/objects/99c3a9744719d0d401af63bb684cf1eb5231a75c/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/e6886725265257d34b5e0d0661632c61800bded3/client.jar"
+    },
+    "21w06a": {
+      "date": "2021-02-10",
+      "type": "snapshot",
+      "version": "21w06a",
+      "server": "https://launcher.mojang.com/v1/objects/6290ba4b475fca4a74de990c7fd8eccffd9654dd/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/50a88791b64547d5325018270e0a5a71f8d4fc03/client.jar"
+    },
+    "21w05b": {
+      "date": "2021-02-04",
+      "type": "snapshot",
+      "version": "21w05b",
+      "server": "https://launcher.mojang.com/v1/objects/f92547a92214ab71a58834e7453ab29a6ab2d192/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/8230cf2349b48ba79b0581a3fc76be53f26312bc/client.jar"
+    },
+    "21w05a": {
+      "date": "2021-02-03",
+      "type": "snapshot",
+      "version": "21w05a",
+      "server": "https://launcher.mojang.com/v1/objects/ff10b6f3bb37799e933ff0c2c300626b78ebfb1d/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/225bda6c3721a464e9f772a1ca96db2d5df246b9/client.jar"
+    },
+    "21w03a": {
+      "date": "2021-01-20",
+      "type": "snapshot",
+      "version": "21w03a",
+      "server": "https://launcher.mojang.com/v1/objects/dbe81ef81e20e76b1458be822026887fef84c541/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/30d492744e5c282331958d2096cc8b39d8ec3145/client.jar"
+    },
+    "1.16.5-rc1": {
+      "date": "2021-01-13",
+      "type": "snapshot",
+      "version": "1.16.5-rc1",
+      "server": "https://launcher.mojang.com/v1/objects/ae3acf34bb6e2d8cc4e11a1d52036cdea3ea980b/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/2b12e44073c724c6af2050ad3b6116f9c732feb1/client.jar"
     }
   },
   "stable": {
@@ -3442,6 +3540,13 @@
       "type": "stable",
       "version": "1.0",
       "client": "https://launcher.mojang.com/v1/objects/b679fea27f2284836202e9365e13a82552092e5d/client.jar"
+    },
+    "1.16.5": {
+      "date": "2021-01-14",
+      "type": "stable",
+      "version": "1.16.5",
+      "server": "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar",
+      "client": "https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar"
     }
   },
   "beta": {
